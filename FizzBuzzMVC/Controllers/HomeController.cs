@@ -64,6 +64,13 @@ namespace FizzBuzzMVC.Controllers
             return View();
         }
 
+        [HttpPost]
+        public IActionResult Clear ()
+        {
+            ViewData["Data"] = "";
+            return View("Solution");
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

@@ -4,12 +4,17 @@
 
 <div class="row">
     <h1>@ViewData["Title"]</h1>
-    <p>Fizz Buzz is a classic coding challenge where the program prints out the numbers from 1 to 100 and every multiple of 3 it prints fizz instead of the number, which every multiple of 5 it prints buzz instead of the number, and every time the number is a multiple of both it prints fizzbuzz. My implementation allows the user to enter in their prefered numbers for fizz, buzz, and the limit of how high it counts (defaults: fizz = 3, buzz = 5, limit = 100).</p>
+    <p>
+        Fizz Buzz is a classic coding challenge where the program prints out the numbers from 1 to 100 and every multiple of 3 it prints fizz instead of the number, which every multiple of 5 it prints buzz instead of the number, and every time the number is a multiple of both it prints fizzbuzz. My implementation allows the user to enter in their prefered numbers for fizz, buzz, and the limit of how high it counts (defaults: fizz = 3, buzz = 5, limit = 100).
+    </p>
     <form asp-action="Solution">
         <input type="number" placeholder="fizz..." name="fizz" min="1" max="5000" oninput="validity.valid || (value = '');" />
         <input type="number" placeholder="buzz..." name="buzz" min="1" max="5000" oninput="validity.valid || (value = '');" />
         <input type="number" placeholder="fizz buzz..." name="limit" min="1" max="5000" oninput="validity.valid || (value = '');" />
         <button type="submit">Submit</button>
+    </form>
+    <form asp-action="Clear">
+        <button type="submit">Clear</button>
     </form>
 </div>
 
