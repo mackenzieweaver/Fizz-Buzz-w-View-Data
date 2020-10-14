@@ -1,4 +1,4 @@
-# FizzBuzzMVC
+# Fizz-Buzz-w-View-Data
 
 ![Fizz Buzz MVC](https://github.com/mackenzieweaver/FizzBuzzMVC/blob/main/FizzBuzzMVC/fizzbuzzmvc.png)
 
@@ -14,7 +14,7 @@ The site is not live because it has not been hosted and/or deployed anywhere.
 
 But you can clone this repo 
 
-`git  clone https://github.com/mackenzieweaver/FizzBUzzMVC`
+`git  clone https://github.com/mackenzieweaver/Fizz-Buzz-w-View-Data`
 
 ### Contribute
 
